@@ -34,7 +34,6 @@ public class PageUiTest {
     }
 
     @Test
-    @Disabled
     void shouldBeBlocked() {
         LoginPage page = new LoginPage();
         page.login(getAnotherAuthInfo());
